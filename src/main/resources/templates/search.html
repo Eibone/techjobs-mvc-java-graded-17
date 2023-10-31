@@ -33,8 +33,8 @@
     </form>
     <hr/>
 
-    <div th:each="job : ${jobs}">
-        <table class="table table-striped job-listing">
+
+        <table class="table table-striped job-listing" th:each="job : ${jobs}">
             <tbody>
             <tr>
                 <th>ID</th>
@@ -62,7 +62,6 @@
             </tr>
             </tbody>
         </table>
-    </div>
 
 </div>
 
